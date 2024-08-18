@@ -25,9 +25,6 @@ architecture TopLevelCircuit of riskyV is
     sevenseg 	:  out std_logic_vector(6 downto 0)     -- 7-bit outputs to a 7-segment
     ); 
     end component;
-	 
-	 
-	 
 
 -- Signals
 	signal adder_sum	 : std_logic_vector(3 downto 0); -- signal with the HEX value of the sum of the 2 HEX numbers

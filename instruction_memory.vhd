@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 
 entity instruction_memory is port (
    clk			: in	std_logic; -- clock signal input
-	address		: in	std_logic_vector(31 downto 0);
+	instr			: in	std_logic_vector(31 downto 0);
 	opcode		: out std_logic_vector(6 downto 0); 
 	rd				: out std_logic_vector(3 downto 0);
 	fun			: out std_logic_vector(6 downto 0);
